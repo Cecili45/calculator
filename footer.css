@@ -1,0 +1,18 @@
+input[type=text]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+footer{
+    display: grid;
+    grid-template-columns: 50% 50% 50%;
+    background-color: chocolate;
+
+}
+.WHOLE{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color:black;
+}

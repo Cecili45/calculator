@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.cons{
+    background-color: cadetblue;
+    width: 200px;
+    text-align: center;
+    height:200px;
+}
+.cons input{
+    margin: 5px;
+    padding:10px;
+}
+.container button{
+    margin: 5px;
+}
+</style>
+<body>
+    <div class="cons">
+        <input type="text" id="number">
+    
+   <div class="container">
+    <button onclick="addToDisplay('7')">7</button>
+    <button onclick="addToDisplay('8')">8</button>
+    <button onclick="addToDisplay('9')">9</button>
+    <button onclick="addToDisplay('/')">/</button>
+   </div> 
+   <div class="container">
+    <button onclick="addToDisplay('6')">6</button>
+    <button onclick="addToDisplay('5')">5</button>
+    <button onclick="addToDisplay('4')">4</button>
+    <button onclick="addToDisplay('+')">+</button>
+   </div> 
+   <div class="container">
+    <button onclick="addToDisplay('3')">3</button>
+    <button onclick="addToDisplay('2')">2</button>
+    <button onclick="addToDisplay('1')">1</button>
+    <button onclick="addToDisplay('-')">-</button>
+   </div> 
+   <div class="container">
+    <button onclick="addToDisplay('C')">c</button>
+    <button onclick="addToDisplay('0')">0</button>
+    <button onclick="addToDisplay('=')">=</button>
+    <button onclick="addToDisplay('*')">*</button>
+   </div> 
+    </div>
+</body>
+</html>
